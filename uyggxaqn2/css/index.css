@@ -60,7 +60,7 @@ body{
 	 * */
 	/*-webkit-animation: fadeInLeft 0.5s 0s both;
 	 animation: fadeInLeft 0.5s 0s both;*/
-	 animation: zoomIn 0.5s 1s both;
+	 animation: zoomIn 0.5s 0.8s both;
 }
 
 .pyyg{
@@ -69,10 +69,10 @@ body{
 	margin-top: .5rem;
 	font-size: 24px;
 	font-weight: 700;
-	animation: bounceInLeft 1s 1.9s both;
+	animation: bounceInLeft 1s 1.7s both;
 }
 .yypb{
-	animation: bounceInDown 1s 1.3s both;
+	animation: bounceInDown 1s 1.2s both;
 }
 #name1{
 	width: 100%;
@@ -84,7 +84,7 @@ body{
 	padding:0 0.15rem ;
 	box-sizing: border-box;
 	font-weight: 600;
-	animation: bounceInLeft 1s 2.1s both;
+	animation: bounceInLeft 1s 1.9s both;
 	
 }
 
