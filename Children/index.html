@@ -7,7 +7,7 @@
 		<title>活动入口</title>
 		<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
 		<script src="js/jquery-3.3.1.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/qedc.js" type="text/javascript" charset="utf-8"></script>
+		<!--<script src="js/qedc.js" type="text/javascript" charset="utf-8"></script>-->
 	</head>
 	<script type="text/javascript">
 		setFontSize();
@@ -24,18 +24,10 @@
 	
 	<body>
 		<div class="box">
-			<h1>活动入口</h1>
-			<input type="text" name="" id="nametykk" value="" class="nametykk" placeholder="输入名字进入活动"/>
-			<div class="fjty">进入活动</div>
-			<div class="regret">抱歉！您无法参与本次活动！</div>
-			<div class="gauy">
-				<p class="p1">时光宝盒。。。</p>
-				<p class="p2">@%￥&*#……！</p>
-				<p class="p3">芝麻开门！</p>
-				<div class="imgqayk">
-					<img src="images/usqayk.jpg"/>
-				</div>
-			</div>
+			<h1>抱歉！活动已经结束。</h1>
+			
+			<div class="fjty">进入时光机！</div>
+			
 		</div>
 	</body>
 	<style type="text/css">
@@ -62,7 +54,7 @@
 	em,i {font-style: normal}
 	a{color: #000; text-decoration: none; cursor:pointer; }
 	
-	body{
+		body{
 		padding:0 7px;
 		box-sizing: border-box;
 		max-width: 980px;
@@ -75,28 +67,15 @@
 		min-height: 660px;
 		background: #E3E3E3;
 		position: relative;
-		background: url(images/640.gif);
+		
 	}
 	.box>h1{
 		font-size: 30px;
 		text-align: center;
 		animation: bounceInDown 1s 0s both;
 		line-height: 90px;
-		color: #ffffff;
 	}
-	.nametykk{
-		width: 80%;
-		height: 50px;
-		position: absolute;
-		top: 100px;
-		left: 50%;
-		margin-left: -40%;
-		text-align: center;
-		border-radius:10px ;
-		border: none;
-		outline:none;
-		animation: bounceInUp 1s 0.5s both;
-	}
+	
 	.fjty{
 		width: 120px;
 		height: 50px;
@@ -110,65 +89,7 @@
 		border-radius: 10px;
 		animation: bounceInUp 1s 0.8s both;
 	}
-	.regret{
-		width: 220px;
-		height: 50px;
-		background: #d4d4d4;
-		position: absolute;
-		top: 250px;
-		left: 50%;
-		margin-left: -110px;
-		text-align: center;
-		color: red;
-		line-height: 50px;
-		border-radius: 10px;
-		display: none;
-		animation: swing .5s 0.2s both;
-	}
 	
-	.gauy{
-		max-width: 980px;
-		width: 100%;
-		height: 100%;
-		background: rgba(26,26,27,0.6);
-		position: fixed;
-		top: 0;
-		display: none;
-	}
-	.gauy>p{
-		font-size: 30px;
-		color: #ffffff;
-	}
-	.p1{
-		position: absolute;
-		top: 88px;
-		left: -250px;
-		animation: bounceInRight 8s -2s both;
-	}
-	.p2{
-		position: absolute;
-		top: 173px;
-		left: -250px;
-		animation: bounceInRight 8s -1.5s both;
-	}
-	.p3{
-		position: absolute;
-		top: 265px;
-		left: -250px;
-		animation: bounceInRight 8s -1s both;
-	}
-	.imgqayk{
-		width: 210px;
-		height:191px;
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		margin-left: -105px;
-		animation: bounceInRight 0.4s 2.7s both;
-	}
-	.imgqayk>img{
-		width: 100%;
-	}
 	</style>
 	<script type="text/javascript">
 		
@@ -179,69 +100,11 @@
 				//电脑打开
 				window.location.href = 'rtsm.html'
 			}
-		var name000 = [
-		"JXU2NUJEJXU3MzJFJXU4MkYx","JXU5RUM0JXU3OUNCJXU3MUQ1","JXU2Nzk3JXU3NDVDJXU3NDND","JXU1NTEwJXU1MjUxJXU5OTk5","JXU2NzRFJXU2NjBFJXU3RkUw",
-		"JXU3RjU3JXU1NjA5JXU2MTY3","JXU4MkNGJXU1OTU1JXU1Qjg3","JXU2NzRFJXU5OTk5JXU4MkIx","JXU2NzRFJXU3RkUwJXU3MUQ1","JXU1NDY4JXU4MjZG",
-		
-		"JXU2Nzk3JXU2NjdBJXU2MTY3","JXU1RjIwJXU2MjExJXU2RTkw","JXU5RUM0JXU3OThGJXU4MjJB","JXU2NzRFJXU1QjUwJXU2REI1","JXU2NzRFJXU3MjM1",
-		"JXU2NzRFJXU0RkNBJXU5NTBC","JXU2NzRFJXU1QzBGJXU3NDJB","JXU2NzRFJXU4MjEyJXU3NDJB","JXU5N0U2JXU5NzU5JXU4NDBE","JXU2NzRFJXU1OTgyJXU2NzA4",
-		
-		"JXU2NzRFJXU4MEIyJXU2Nzcw","JXU1RTlFJXU3OEE3JXU3Mzg5","JXU1RjIwJXU3Mzg5JXU0RTNE","JXU5MEQxJXU3QTBCJXU1QzlB","JXU2NzMxJXU1NkZEJXU5Rjk5",
-		"JXU1MjE4JXU1RTdGJXU1RTcz","JXU0RjU1JXU5NzUzJXU5ODk2","JXU4NDk5JXU4MkIzJXU4Mjcz","JXU2NzRFJXU5NkVBJXU3M0Iy","JXU2NzRFJXU2QzM4JXU4MERD",
-		
-		"JXU5NjQ2JXU2MkRCJXU1QkND","JXU1RUQ2JXU4RkYwJXU1NDA5JXU1MTc1","JXU4M0FCJXU2QzM4JXU2NTg3","JXU2RjU4JXU3OTNDJXU2MjEw","JXU4MkNGJXU2RDc3JXU1RkQ3",
-		"JXU1MjE4JXU1RkQ3JXU5RTRG","JXU2Nzk3JXU2Mzc3JXU4RDI0","JXU5MDkzJXU0RjFGJXU1MDY1","JXU5QjRGJXU1OTQ3JXU5RTRG","JXU5NjQ4JXU4OUMyJXU2QjYz",
-		
-		"JXU3MzhCJXU5NjMz","JXU2NzRFJXU4RkRDJXU5OERF","JXU5NjQ4JXU1QzU1JXU4RDIy","JXU2NzRFJXU1RkUw","JXU0RjBEJXU5NTFGJXU2RjAy",
-		"JXU5RUM0JXU4M0Yy","JXU5MEI5JXU1Qjgx","JXU2QjI3JXU4RDI0JXU2NTg3","JXU3RjU3JXU1MTc1","JXU1RTlFJXU1MUU0JXU3NDND",
-		
-		"JXU2Qzg4JXU2N0NGJXU5NzE2","JXU3MzhCJXU2NjUzJXU1QTFD","JXU5Rjk5JXU5ODk2JXU2NTg3","JXU1QzBGJXU4MkIz","JXU1QzBGJXU1MzRF",
-		"MTMldTU5RDA=","JXU0RTAw"
-	]
-		$('.fjty').click(function() {
-	var namefj = $(".nametykk").val()
-
-	
-	if(namefj == "") {
-		$('.nametykk').attr('placeholder', "输入名字进入活动！")
-	} else {
-		$.each(name000, function(index, rss) {
-			if(namefj == decode64(rss)) {
-				$('.imgqayk img').attr('src','images/fnal.png')
-				jfiqsm()
-				$('.regret').remove();
-				setTimeout(function(){
-					window.location.replace("index2.html")
-				},4000);
-				return false;
-			} else {
-				jfiqsm();
-				setTimeout(function(){
-					$('.regret').show()
-				},4000)
-//				$('.nametykk').attr('placeholder', "抱歉！您无法参与本次活动！！")
-				$('.imgqayk img').attr('src','images/usqayk.jpg')
-			}
-		});
-		//输入框获取焦点
-		$('.nametykk').focus(function(){
-			$('.nametykk').attr('placeholder', "输入名字进入活动！")
-			$('.regret').slideUp(500);
-		})
-	}
-	
-	function jfiqsm(){
-			$('.gauy').show()
-			$('.box h1,.nametykk,.fjty').hide();
-			setTimeout(function(){
-				$('.box h1,.nametykk,.fjty').show()
-				$('.gauy').hide()
-			},4000)
 			
-			$('.nametykk').val("")
-	}
-	
-})
-
+		$('.fjty').click(function(){
+//			window.location.href = "../index.html";
+			window.location.href = "https://redengine9992.github.io/ChildrensDay/ChildrensDay/index.html"
+			
+		})
 	</script>
 </html>
