@@ -1,0 +1,218 @@
+@charset "utf-8";
+html{color:#000;background:#FFF;}
+body {font-size: 16px;color: #000;
+/*font-family:PingFang SC ,Source Han Sans,Heiti SC, Microsoft YaHei, Microsoft JhengHei*/
+}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,select,p,blockquote,th,td{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+img{vertical-align:top;}
+address,button,caption,cite,code,dfn,em,input,optgroup,option,select,strong,textarea,th,var{font:inherit;}
+del,ins{text-decoration:none;}
+ol,ul,li,dl,dd,dt{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:bold;}
+q:before,q:after{content:'';}
+abbr,acronym{border:0;font-variant:normal;}
+sup{vertical-align:baseline;}
+sub{vertical-align:baseline;}
+legend{color:#000;}
+textarea {resize: none}
+img {border: 0;vertical-align: top;max-width: 100%}
+em,i {font-style: normal}
+a{color: #000; text-decoration: none; cursor:pointer; }
+
+/*大盒子*/
+body{
+	width: 6.4rem;
+	margin: auto;
+	background: skyblue;
+}
+.jney{
+	position: relative;
+}
+.boxdd{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	background: rgba(60,60,60,0.1);
+}
+.nwpw{
+	width: 5.2rem;
+	height: 5.2rem;
+	background:rgba(323,97,191,0.5) ;
+	position: absolute;
+	top:3rem;
+	left: 50%;
+	margin-left: -2.6rem;
+	border-radius:10px ;
+	/*animation: bounceInDown 1s 0s both;
+	animation: bounceInUp 1s 0s both;
+	animation: bounceInLeft 1s 0s both;
+	animation: bounceInRight 1s 0s both;*/
+	/*animation: flipInY 1s 0s both*/
+	/*animation: bounceIn 1s 0s both;
+	 animation: swing .5s 1s both;
+	 animation: rubberBand .5s 0.5s both;
+	 animation: lightSpeedIn .5s 0.7s both;
+	 animation: zoomIn 1s 1.6s both
+	 * */
+	/*-webkit-animation: fadeInLeft 0.5s 0s both;
+	 animation: fadeInLeft 0.5s 0s both;*/
+	 animation: zoomIn 0.5s 1s both;
+}
+
+.pyyg{
+	text-align: center;
+	color: #00000; 
+	margin-top: .5rem;
+	font-size: 24px;
+	font-weight: 700;
+	animation: bounceInLeft 1s 1.9s both;
+}
+.yypb{
+	animation: bounceInDown 1s 1.3s both;
+}
+#name1{
+	width: 100%;
+	height: .8rem;
+	border: none;
+	margin-top: 20px;
+	/*float: left;*/
+	text-align: center;
+	padding:0 0.15rem ;
+	box-sizing: border-box;
+	font-weight: 600;
+	animation: bounceInLeft 1s 2.1s both;
+	
+}
+
+.draw{
+	width: 40%;
+	height: .8rem;
+	position: relative;
+	top: 20px;
+	left: 50%;
+	margin-left: -20%;
+	font-weight: 600;
+	background: #d40fa3;
+	border-radius:10px;
+	text-align: center;
+	line-height: .8rem;
+	animation: bounceInLeft 1s 2.3s both;
+}
+.tjrm{
+	width: 40%;
+	height: .8rem;
+	position: relative;
+	top: 20px;
+	left: 50%;
+	margin-left: -20%;
+	font-weight: 600;
+	background: #d40fa3;
+	text-align: center;
+	line-height: .8rem;
+	border-radius:10px;
+	display: none;
+	color: white;
+	animation: bounceInUp 1s 0s both;
+	/*animation: zoomIn 0.5s 0s both;*/
+	/*animation: rubberBand 1s 0.5s both*/
+}
+
+/**/
+.dgyt{
+	width: 5.2rem;
+	height: 1.2rem;
+	background:rgba(323,97,191,0.5) ;
+	position: absolute;
+	top:8.2rem;
+	left: 50%;
+	margin-left: -2.6rem;
+	text-align: center;
+	line-height: 0.6rem;
+	color: white;
+	display: none;
+	font-weight: 600;
+	border-radius:10px ;
+	animation: bounceInLeft 2s 0s both;
+}
+/*返回弹窗*/
+.xupw,.xupw2{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	background: rgba(69,69,69,0.7);
+	display: none;
+}
+.xupw_box{
+    width: 5.2rem;
+    height: 3.2rem;
+    background: rgba(323,97,191,0.5);
+    position: relative;
+    top: 3rem;
+    left: 50%;
+    margin-left: -2.6rem;
+    animation: bounceInLeft 1s 0s both;
+}
+.vbr,.gikt,.vbr2{
+	width: 40%;
+	height: .8rem;
+	position: absolute;
+	top: 2.21rem;
+	left: 50%;
+	margin-left: 4%;
+	font-weight: 600;
+	background: #d40fa3;
+	text-align: center;
+	line-height: .8rem;
+	border-radius:10px;
+	color: white;
+	animation: bounceInUp 1s 0.6s both;
+}
+.vbr2{
+	animation: lightSpeedIn 0.8s 0.9s both;
+	
+}
+.gikt{
+	margin-left: -42%;
+	animation: bounceInUp 1s 0.5s both;
+}
+.xupw_box .lkj{
+	width: 100%;
+	position: absolute;
+	top: -1px;
+	animation: bounceInDown 1s 0.3s both;
+}
+.vbr2{
+	margin-left: -21%;
+	
+}
+.yypb{
+	font-size: 22px;
+}
+
+/*彩蛋*/
+.ihawaw{
+	width: 255px;
+	height: 305px;
+	position: absolute;
+	top: 8.21rem;
+	left: 50%;
+	margin-left: -125.5px;
+	display: none;
+	animation: bounceInDown 1s 0.5s both;
+}
+.ihawaw>img{
+	width: 100%;
+}
+.ihawaw>p{
+	text-align: center;
+	background: rgba(323,97,191,0.5);
+	border-radius:10px ;
+	animation: bounceInUp 1s 1s both;
+	font-weight: 600;
+	font-size:19px ;
+}
