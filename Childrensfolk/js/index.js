@@ -14,11 +14,11 @@ $(function(){
 	]
 	//20
 	var ukuqma = [
-			"MTIzNDU2",'cXdld3NlcnQ=','NzU3MDYzOTQ=','NTUzMDU4OTQ=','NDIxNDE3OTQ=',
-			"NzgzMTk5OTQ=",'NjgwOTA1OTQ=','MDQ5MzA5OTQ=','OTcyNzI3OTQ=','NzU3MDYzOTQ',
-			
-			"MDQ0NjU5OTQ",'NzczNzgzOTQ','NzU3MDYzOTQ','NzU3MDYzOTQ','NzU3MDYzOTQ',
-			"MDQ0NjU5OTQ",'NzczNzgzOTQ','NzU3MDYzOTQ','NzU3MDYzOTQ','NzU3MDYzOTQ'
+			"NDA5NTA0OTQ=",'ODQ5OTAzOTQ=','NzU2NTcyOTQ=','MDM0ODczOTQ=','NjEyOTA3OTQ=',
+			"NTExMDg5OTQ=",'MDUxOTUzOTQ=','ODA1NTAyOTQ=','Mjk1MzIyOTQ=','Nzk5NTAyOTQ=',
+
+			"NzA1MDIwOTQ=",'NzA4Mzk3OTQ=','NjQ0MDY0OTQ=','MzgwNDcyOTQ=','NTgxNjY0OTQ=',
+			"MTY0NDEwOTQ=",'MjE3MjI0OTQ=','NzYzMjM5OTQ=','MDczMDMzOTQ=','NjMyODg3OTQ='
 	]
 
 			setInterval(function(){
