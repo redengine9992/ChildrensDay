@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+		<title>可爱的小朋友才有红包哟!</title>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+		<script src="js/layer.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-3.3.1.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/qedc.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/clipboard.min_1.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<script type="text/javascript">
+			if(/AppleWebKit.*Mobile/i.test(navigator.userAgent) || (/MIDP|SymbianOS|NOKIA|SAMSUNG|LG|NEC|TCL|Alcatel|BIRD|DBTEL|Dopod|PHILIPS|HAIER|LENOVO|MOT-|Nokia|SonyEricsson|SIE-|Amoi|ZTE/.test(navigator.userAgent))) {
+				if(/Android|webOS|iPhone|iPod|BlackBerry|iPad/i.test(navigator.userAgent)) {
+				}
+			} else {
+				//电脑打开
+				window.location.href = 'rtsm.html'
+			}
+		</script>
+	<script type="text/javascript">
+		setFontSize();
+	window.addEventListener("resize", setFontSize, false);
+
+function setFontSize() {
+	var clientW = document.documentElement.clientWidth;
+	if(clientW > 640) {
+		clientW = 640
+	}
+	document.documentElement.style.fontSize = clientW / 6.4 + "px"
+};
+	</script>
+
+	<body onbeforeunload="return myFunction()">
+		<div class="jney">
+			<img src="images/index.jpg" width="100%"/>
+			<div class="boxdd">
+				<div class="nwpw">
+					<p class="pyyg yypb">祝 您 儿 童 节  快 乐！</p>
+					<p class="pyyg">在这清凉夏日<br />XX同学请你吃巧乐兹！！</p>
+					<input type="text" name="" id="name1" value="" class="lwtysa" placeholder="输入您名字领取支付宝红包口令"/>
+					<div class="draw">点击领取</div>
+					<div class="tjrm">复制兑奖码</div>
+				</div>
+				<div class="dgyt">
+					感谢那些曾经帮助过我的人<br />带着童心快乐下去！
+				</div>
+			</div>
+			<div class="xupw">
+				<div class="xupw_box">
+					<p class="pyyg yypb lkj">答应我，要吃一个巧乐兹！！<br />祝开心！祝快乐！</p>
+					<div class="gikt">不吃</div>
+					<div class="vbr">好的</div>
+				</div>
+			</div>
+			<div class="xupw2">
+				<div class="xupw_box">
+					<p class="pyyg yypb lkj">不犒劳一下一直努力的自己？？<br /></p>
+					
+					<div class="vbr2">好的</div>
+				</div>
+			</div>
+			<div class="ihawaw">
+				<p>恭喜你发现<span style="color: red;font-weight: 600;">彩蛋！</span>截图发给我<br />免费获得下一次活动名额一个</p>
+				<img src="images/ihawx.jpg"/>
+			</div>
+		</div>
+	</body>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			(function(window, location) {
+				history.replaceState(null, document.title, location.pathname + "#!/stealingyourhistory");
+				history.pushState(null, document.title, location.pathname);
+				window.addEventListener("popstate", function() {
+					if(location.hash === "#!/stealingyourhistory") {
+//						alert(111)
+						history.replaceState(null, document.title, location.pathname);
+						setTimeout(function() {
+							$('.xupw').css('display', 'block');
+							$('.boxdd').css('display', 'none');
+							$(window).scrollTop(0)
+						}, 0);
+					}
+				}, false);
+			}(window, location));
+		</script>
+		
+
+</html>
