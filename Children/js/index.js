@@ -16,10 +16,11 @@ $(function(){
 		//31
 	]
 	var ukuqma = [
-			"MTIzNDU2",'cXdld3NlcnQ=','NzU3MDYzOTQ=','NTUzMDU4OTQ=','NDIxNDE3OTQ=',
-			"NzgzMTk5OTQ=",'NjgwOTA1OTQ=','MDQ5MzA5OTQ=','OTcyNzI3OTQ=','NzU3MDYzOTQ',
-			
-			"MDQ0NjU5OTQ",'NzczNzgzOTQ','NzU3MDYzOTQ','NzU3MDYzOTQ','NzU3MDYzOTQ',
+			"OTk1MTg2OTQ=",'NTE1MDA1OTQ=','MDU3NDYwOTQ=','NDM0MTQ3OTQ=','ODg4ODQ5OTQ=',
+			"MTc4NjcyOTQ=",'NzMzNzYyOTQ=','NjQxNzM2OTQ=','MjAwMzMwOTQ=','NzQ0MzY5OTQ=',
+
+			"MjMzOTk5OTQ=",'MjMwMjgxOTQ=','MzQ5MDAwOTQ=','NDc1MjMxOTQ=','Mzk0NjMzOTQ=',
+		
 			"MDQ0NjU5OTQ",'NzczNzgzOTQ','NzU3MDYzOTQ','NzU3MDYzOTQ','NzU3MDYzOTQ',
 			
 			"MDQ0NjU5OTQ",'NzczNzgzOTQ','NzU3MDYzOTQ','NzU3MDYzOTQ','NzU3MDYzOTQ',
